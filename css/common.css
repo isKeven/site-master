@@ -1,0 +1,190 @@
+/*------header-------*/
+.header{
+	width:100%;
+	height:36px;
+	background-color: #f5f5f5;
+	line-height: 36px;
+}
+.header .language a{
+	margin-right: 20px;
+}
+.header .login a{
+	margin-left: 20px;
+}
+
+/*----main-nav-----*/
+.comWidth{
+	width:1240px;
+	margin:0 auto;
+	height:100%;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.main-nav{
+	height:120px;
+	position: relative;
+}
+.main-nav .logo{
+	width:180px;
+	height: 100%;
+	background: url(../images/logo.png) left center no-repeat;
+	padding-right: 5px;
+}
+.main-nav .menu .menu-list li{
+	float: left;
+	line-height: 120px;
+	font-size: 17px;
+}
+.main-nav .menu .menu-list li a{
+	color:#333;
+	display: inline-block;
+	height:40px;
+	vertical-align: middle;
+	line-height: 40px;
+	padding: 0 15px;
+}
+.main-nav .menu .menu-list li a:hover{
+	color:#23ac38;
+}
+.main-nav .search{
+    height: 40px;
+    width: 306px;
+    border: 2px solid #23ac38;
+    margin-top:39px;
+}
+.search .input-box {
+    width: 196px;
+    height: 28px;
+    padding: 6px;
+    line-height: 28px;
+    background: url('../images/search.png') 170px center no-repeat; 
+}
+.search .input-box .input-text {
+    width: 196px;
+    height: 28px;
+    line-height: 28px;
+    border: 0;
+    outline:0;
+    background: 0;
+}
+.search .search-button {
+    width: 96px;
+    height: 40px;
+    border: none;
+    color: #fff;
+    font-size: 14px;
+    background-color: #23ac38;
+    font-family: "微软雅黑";
+}
+.search .search-button:hover {
+    background-color: #00c749
+}
+
+/*---- menu-pop -----*/
+.menu-pop{
+	width: 100%;
+	position: absolute;
+	left: 0;
+	overflow: hidden;
+	padding:15px 0;
+    display: none;
+    height:0;
+    background: #fff;
+    border-top: 1px solid #e5e5e5;	
+	border-bottom: 1px solid #e5e5e5;
+}
+.menu-pop .context{
+	display: none;
+}
+.menu-pop dl{
+	width: 180px;
+	margin-left: 56px;
+}
+.menu-pop dl dt{
+	margin-bottom: 15px;
+	font-size: 18px;
+	color: #333;
+	line-height: 48px;
+}
+.menu-pop dl dd{
+	line-height: 40px;
+    margin-bottom: 15px;
+}
+.menu-pop dl dd a{
+    color:#666;
+    font-size: 14px;
+}
+.menu-pop dl dd img{
+	width: 40px;
+    height: 40px;
+    vertical-align: middle;
+    margin-right: 10px
+}
+
+/*-------bottom-nav---------*/
+.bottom-nav{
+	width:100%;
+	background: #f6f6f6;
+	padding:40px 0 50px 0;
+	margin-top: 40px;
+}
+.bottom-nav dl{
+	border-right: 1px solid #e5e5e5;
+	padding-left: 30px;
+	width: 209px;
+	height:168px;
+	float: left;
+}
+.bottom-nav dl:last-child{
+	border: 0;
+}
+.bottom-nav dl dt{
+	margin-bottom: 10px;
+	font-size: 18px;
+	line-height: 18px;
+}
+.bottom-nav dl dd a{
+	color:#666;
+	line-height: 28px;
+}
+.bottom-nav .weixin .title{
+	margin-bottom: 20px;
+}
+.bottom-nav .weixin .title p{
+	font-size: 18px;
+	font-weight: bold;
+}
+.bottom-nav .weixin .government{
+	margin-right: 30px;
+}
+.bottom-nav .weixin a span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+	vertical-align: middle;
+	background: url(../images/icons.png) -150px -484px no-repeat;
+}
+.bottom-nav .weixin .fl p{
+	text-align: center;
+	color: #999;
+}
+/*---------copyright----------*/
+.copyright{
+	width:100%;
+	text-align: center;
+	padding:40px 0;
+}
+.copyright a{
+	font-size: 12px;
+	color: #999;
+	line-height: 24px;
+	display: block;
+}
+.copyright img{
+	vertical-align: middle;
+}
