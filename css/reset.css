@@ -1,4 +1,4 @@
-/*----reset-----*/
+/*------reset-------*/
 html, body, div, span, iframe,
 h1, h2, h3, h4, h5, h6, p, a, 
 del, dfn, em, img,
@@ -37,7 +37,7 @@ a:active{
 	text-decoration: none;
 }
 
-/*---清除浮动---*/
+/*-----清除浮动-----*/
 .clearfix:after{
 	visibility: hidden;
 	display: block;
@@ -46,16 +46,16 @@ a:active{
 	clear:both;
 	height: 0;
 }
-/*--IE7--*/
+/*-----IE7-----*/
 .clearfix{
 	*zoom:1;
 }
-/*--IE6--*/
+/*----IE6----*/
 .clearfix{
 	_height:1%;
 }
 
-/* HTML5 display-role reset for older browsers */
+/*---HTML5 display-role reset for older browsers---*/
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
